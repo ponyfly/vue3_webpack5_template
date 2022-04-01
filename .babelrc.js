@@ -4,7 +4,7 @@ module.exports = {
 		[
 			"@babel/preset-typescript",
 			{
-				allExtensions: false
+				allExtensions: true
 			},
 		]
 	]

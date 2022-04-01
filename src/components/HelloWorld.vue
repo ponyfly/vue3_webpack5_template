@@ -1,5 +1,4 @@
 <template>
-
   <p class="test">
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
@@ -25,17 +24,15 @@
 </template>
 <script lang="ts">
 import { ref } from 'vue'
+
 export default {
   setup() {
     const count = ref(0)
-    const a = 3 
     return {
       count
     }
   }
 }
-
-
 </script>
 <style lang="less" scoped>
 a {
