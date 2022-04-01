@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "webpack serve --config ./config/webpack.dev.js",
     "build": "webpack --config ./config/webpack.prod.js",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "eslint": "eslint ./src --fix"
   },
   "dependencies": {
     "vue": "^3.2.31"
